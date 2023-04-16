@@ -15,7 +15,7 @@ namespace HomeworkFivePartOne
         {
             try
             {
-                string sourceArchive = AppContext.BaseDirectory + "\\testArchive.zip";
+                string sourceArchive = AppContext.BaseDirectory + "\\archiveHomework.zip";
                 string destinationDirectory = AppContext.BaseDirectory + "\\testProgram";
                 string summaryTextFile = AppContext.BaseDirectory + "\\summaryInfo.csv";
                 string pathToTheCsv = "%AppData%\\HomeworkFive.txt";
